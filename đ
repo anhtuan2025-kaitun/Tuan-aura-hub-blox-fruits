@@ -1,0 +1,28 @@
+local Window = MakeWindow({
+    Hub = {
+        Title = "Bao Minh Dev",
+        Animation = "Bảo Minh Dev | /Tricker"
+    },
+    Key = {
+        KeySystem = true,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "cặc",
+        Keys = {"Tuan"},
+        Notifi = {
+            Notifications = true,
+            CorrectKey = "Running the Script...",
+            Incorrectkey = "The key is incorrect",
+            CopyKeyLink = "Copied to Clipboard"
+        }
+    }
+})
+
+MinimizeButton({
+    Image = "rbxassetid://97123350275456",
+    Size = {60, 60},
+    Color = Color3.fromRGB(10, 10, 10),
+    Corner = true,
+    Stroke = false,
+    StrokeColor = Color3.fromRGB(255, 0, 0)
+})
